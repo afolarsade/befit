@@ -160,7 +160,7 @@ const sendEmail = (e) => {
         }, 3000)
     } else{
         //serviceID - templateID - #form - publicKey
-        emailjs.sendForm('service_0tn4573','template_0wucgsn','#contact-form','0FBx9EK_iqJ0punjl')
+        emailjs.sendForm('service_8eenizu','template_lamzaaf','#contact-form','0FBx9EK_iqJ0punjl')
         .then(() =>{
             //Show message and add color
             contactMessage.classList.add('color-green')
